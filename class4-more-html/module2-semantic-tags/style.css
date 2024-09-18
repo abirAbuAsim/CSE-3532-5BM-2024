@@ -1,0 +1,27 @@
+.header {
+    background-color: antiquewhite;
+    padding: 8px;
+}
+
+.header ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header a:hover {
+    background-color: lightgray;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.header a:active {
+    color: blue;
+}
